@@ -22,14 +22,14 @@
     if (!isset($_SESSION['login'])) {
 
         if (isset($_POST['sub'])) {
-            $logion = 'pedro';
+            $login = 'Pedro';
             $pass = '123456';
 
             $loginForm = $_POST['login'];
             $passForm = $_POST['pass'];
 
-            if ($logion == $loginForm && $pass == $passForm) {
-                $_SESSION['login'] = true;
+            if ($login == $loginForm && $pass == $passForm) {
+                $_SESSION['login'] = $login;
                 header('location: index.php');
             } else {
                 echo 'Erro ao envio';
@@ -50,5 +50,4 @@
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/709b7bfa2e.js" crossorigin="anonymous"></script>
-</body>
 </html>

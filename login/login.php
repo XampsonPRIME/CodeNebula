@@ -1,20 +1,26 @@
 <body class="backlogin">
-<div class="titlle">
-    <h1>Faça login
-        para entrar para o nosso time <span class="badge badge-secondary">New</span></h1>
+<div class="container titulopag">
+    <div class="row">
+        <div class="col-12">
+            <div class="h2 titleGe">
+                <p class="titlePri">Faça login</p>
+                <p class="titleSec">para entrar para o nosso time</p>
+            </div>
+        </div>
+    </div>
 </div>
 <div class="container titleLogin">
     <div class="row titleDiv">
-        <div class="col-4 textlogin">
-            <h1>Login</h1>
-        </div>
         <div class="col-4">
+            <div class="col-4 textlogin">
+                <h1>Login</h1>
+            </div>
             <form method="post">
-                <div class="mb-3">
+                <div class="mb-3 userLog">
                     <label for="exampleInputEmail1" class="form-label acessos">Usuário</label>
                     <input type="text" class="form-control backgrounAcessos" name="login" id="exampleInputEmail1"
                            aria-describedby="emailHelp" placeholder="Usuário">
-                    <div id="emailHelp" class="form-text">Não salvamos as informacoes.</div>
+                    <div id="emailHelp" class="form-text informativ">Não salvamos as informacoes.</div>
                 </div>
 
                 <div class="mb-3">
@@ -57,10 +63,10 @@
     <div class="cow-4"></div>
     <div class="cow-4"></div>
 </div>
-<div class="container footer">
+<div class="container-fluid footer">
     <div class="row">
         <div class="col-4">
-            <footer>
+            <footer class="container-fluid">
                 <p class="copy">&copy; 2023 / Fenxus-Xampson-Lubrix-LTDA</p>
             </footer>
         </div>
